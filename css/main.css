@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 50%;
+  background-color: lightgray;
+  margin: 150px auto;
+  padding: 25px;
+  border-radius: 25px;
+  font-family: sans-serif;
+}
+.box > * {
+  margin: 20px 0;
+}
